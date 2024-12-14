@@ -10,7 +10,8 @@ import pandas as pd
 LOGIN_URL = "https://stathead.com/users/login.cgi?redirect_uri=https%3A//stathead.com/fbref/"  # Replace with actual login URL
 BASE_URL = "https://stathead.com/fbref/player-match-finder.cgi?request=1&match=player_game&match_status=1&comp_gender=m&comp_type=c-9&timeframe=seasons&year_min=2023-2024&order_by_asc=1&height_type=height_meters&is_qualifier=0&weight_type=kgs&year_max=2023-2024&order_by=date&force_min_year=1&cstat[1]=xg&ccomp[1]=gt&cval[1]=0&cstat[2]=shots&ccomp[2]=gt&cval[2]=0&cstat[3]=passes_completed&ccomp[3]=gt&cval[3]=0&cstat[4]=tackles&ccomp[4]=gt&cval[4]=0&cstat[5]=offsides&ccomp[5]=gt&cval[5]=0&offset={offset}"
 BASE_URL = "https://stathead.com/fbref/player-match-finder.cgi?request=1&year_min=2021-2022&comp_gender=m&force_min_year=1&order_by_asc=1&order_by=date&match_status=1&match=player_game&year_max=2021-2022&comp_type=c-9&weight_type=kgs&is_qualifier=0&timeframe=seasons&height_type=height_meters&cstat[1]=xg&ccomp[1]=gt&cval[1]=0&cstat[2]=shots&ccomp[2]=gt&cval[2]=0&cstat[3]=passes_completed&ccomp[3]=gt&cval[3]=0&cstat[4]=tackles&ccomp[4]=gt&cval[4]=0&cstat[5]=offsides&ccomp[5]=gt&cval[5]=0&offset={offset}"
-
+USERNAME = "ScooterKingen"               # Replace with your username
+PASSWORD = "L$Bnf8sgyt1921"               # Replace with your password
 DRIVER_PATH = r"C:\Users\ASUS\Desktop\chromedriver-win64\chromedriver.exe"
     # Replace with the path to chromedriver
 
